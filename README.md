@@ -1,8 +1,10 @@
 # Netbox Pluginfvrspathatt
 [Netbox](https://github.com/netbox-community/netbox) Plugin description
 
-This plugin was design so that I could use Ansible module Cisco.aci.aci.static_binding_to _epg (fv:RsPathAtt) abd fetch the info from Netbox API.
+This plugin was design so that I could use Ansible module Cisco.aci.aci.static_binding_to _epg (fv:RsPathAtt) and fetch the info from Netbox API.
 We found that this process manually was time-consuming.
+
+This was an experiment to see how easy it is to write a new plugin for NetBox.
 
 ## Compatibility
 
