@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load helpers %}
+
+
+
+{% block content %}
+<div class="row">
+    <div class="pull-left col-md-7">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <strong>Aci EPG details </details></strong>
+            </div>
+            <table class="table table-hover panel-body attr-table">
+                <tr>
+                    <td>Name</td>
+                    <td>{{ AciEpg.name }}</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>{{ AciEpg.description }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
